@@ -1,10 +1,7 @@
 name = "layerops-email"
 main = "src/worker.js"
 compatibility_date = "2024-12-01"
-
-# Email routing requires the email event handler
-# The worker receives emails via Cloudflare Email Routing
-# and replies using the Resend API
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
 FROM_EMAIL = "kestrel@layerops.tech"
