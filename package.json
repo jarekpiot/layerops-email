@@ -11,7 +11,7 @@
   "author": "Jarek Piotrowski",
   "license": "MIT",
   "dependencies": {
-    "mimetext": "^4.0.0"
+    "mimetext": "^3.0.0"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
