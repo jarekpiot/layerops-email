@@ -34,3 +34,5 @@ npm run deploy
 ```
 
 Or push to the connected GitHub repo for automatic deployment.
+
+CI/CD: Connected to Cloudflare Build for automatic deployments.
