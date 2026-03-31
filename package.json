@@ -1,0 +1,16 @@
+{
+  "name": "layerops-email",
+  "version": "1.0.0",
+  "description": "Kestrel — LayerOps AI Email Assistant (Cloudflare Email Worker)",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["cloudflare-workers", "email", "resend"],
+  "author": "Jarek Piotrowski",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
