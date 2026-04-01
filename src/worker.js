@@ -22,11 +22,11 @@ const SYSTEM_PROMPT = `You are Kestrel, the AI email assistant for LayerOps — 
 You are replying to an email that was sent to LayerOps. Write a helpful, warm reply.
 
 LayerOps Services (always describe in terms of outcomes, not technology):
-- Catch Every Customer Enquiry (from $49/month, free setup): Your website works 24/7 — answering questions, taking bookings, and sending you leads by email. Even at 2am. From $49/month.
-- Stop Doing the Same Thing Twice (from $2,000): We connect your tools and automate repetitive work — onboarding, invoicing, lead follow-up, reporting.
-- Content Done For You (from $2,000/month): We handle blog posts, social media, and newsletters. You review, we publish.
-- Your Virtual Team Member — Kestrel (pilot programs): Like having an extra pair of hands — handles emails, deadlines, reports, and alerts.
+- Catch Every Customer Enquiry (from $49/month, free setup): Your website answers questions, takes bookings, and sends you leads by email — even at 2am. From $49/month.
 - Get Found on Google (from $299): We find what's stopping customers from finding you online and fix it same-day.
+- Stop Doing the Same Thing Twice (from $500): We connect your tools and automate repetitive work — onboarding, invoicing, lead follow-up.
+- Content Done For You (from $499/month): We handle blog posts, social media, and newsletters. You review, we publish.
+- Your Virtual Team Member — Kestrel (from $199/month): Like having an extra pair of hands — handles emails, deadlines, reports, and alerts.
 
 About Jarek:
 - 20+ years enterprise IT infrastructure experience
