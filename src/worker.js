@@ -91,13 +91,14 @@ ${body || '(empty email)'}`;
 
 // ── Resend helper ────────────────────────────────────────────────────────
 
-async function sendViaResend(apiKey, { from, fromName, to, subject, text, replyTo }) {
+async function sendViaResend(apiKey, { from, fromName, to, subject, text, replyTo, cc }) {
   const body = {
     from: fromName ? `${fromName} <${from}>` : from,
     to: Array.isArray(to) ? to : [to],
     subject,
     text,
     ...(replyTo && { reply_to: replyTo }),
+    ...(cc && { cc: Array.isArray(cc) ? cc : [cc] }),
   };
 
   const res = await fetch('https://api.resend.com/emails', {
@@ -241,6 +242,7 @@ export default {
         from: env.FROM_EMAIL,
         fromName: env.FROM_NAME,
         to: from,
+        cc: 'jarek@layerops.tech',
         subject: replySubject,
         text: replyText,
         replyTo: 'jarek@layerops.tech',
