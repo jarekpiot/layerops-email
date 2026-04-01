@@ -6,4 +6,4 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 FROM_EMAIL = "kestrel@layerops.tech"
 FROM_NAME = "Kestrel - LayerOps AI"
-FORWARD_TO = "jarekpiot@gmail.com"
+FORWARD_TO = "jarek@layerops.tech"
